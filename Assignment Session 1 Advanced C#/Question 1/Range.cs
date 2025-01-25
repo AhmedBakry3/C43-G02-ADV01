@@ -5,13 +5,13 @@
         #region Properties
         
         public T Value { get; set; }
-        public T? minimum { get; set; }
+        public T minimum { get; set; }
 
-        public T? maximum { get; set; } 
+        public T maximum { get; set; } 
         #endregion
 
         #region Constructors
-        public Range(T? minimum, T? maximum)
+        public Range(T minimum, T maximum)
         {
             this.minimum = minimum;
             this.maximum = maximum;
