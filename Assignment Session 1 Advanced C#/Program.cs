@@ -20,7 +20,7 @@ namespace Assignment_Session_1_Advanced_C_
             Console.WriteLine(range.IsInRange(7)); //True
 
             //Calling Length() Method
-            Console.WriteLine(range.Lengh()); // 5 => Max-Min = 10-5 = 5
+            Console.WriteLine(range.Length()); // 5 => Max-Min = 10-5 = 5
             #endregion
 
             #region Question 2 : You are given an ArrayList containing a sequence of elements. try to reverse the order of elements in the ArrayList in-place(in the same arrayList) without using the built-in Reverse. Implement a function that takes the ArrayList as input and modifies it to have the reversed order of elements.
