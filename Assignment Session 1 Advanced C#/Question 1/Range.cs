@@ -26,7 +26,7 @@
             return Value.CompareTo(minimum) >= 0 && Value.CompareTo(maximum) <= 0;  
         }
         //Creating Method Length()
-        public int Lengh()
+        public int Length()
         {
             int Max = Convert.ToInt32(maximum);
             int Min = Convert.ToInt32(minimum);
